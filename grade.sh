@@ -4,7 +4,7 @@ rm -rf student-submission
 git clone $1 student-submission
 echo 'Finished cloning'
 
-if [[ -f student-submission/ListExamples.java ]]
+if [[ -f ListExamples.java ]]
 then
   echo 'ListExamples.java found'
 else
